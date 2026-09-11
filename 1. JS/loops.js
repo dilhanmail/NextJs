@@ -15,4 +15,4 @@ console.log("-----------------------------------------")
 prices.forEach((item) => {
     console.log(`Doubled: ${item * 2}`);
 });
-//sfsfas
+//Loops
