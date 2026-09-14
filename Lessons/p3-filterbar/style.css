@@ -1,0 +1,33 @@
+.filter-bar {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 30px;
+}
+
+.filter-bar .btn {
+    width: 200px;
+    border: 1px solid black;
+    border-radius: 8px;
+    background-color: white;
+    cursor: pointer;
+
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)) ;
+    gap: 15px;
+}
+
+.product-grid .product {
+    border: 1px solid black;
+    border-radius: 10px;
+    gap: 5px;
+    padding: 5px;
+}
+
+@media (max-width: 500px) {
+    .filter-bar{
+        flex-direction: column;
+    }
+}
